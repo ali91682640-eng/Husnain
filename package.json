@@ -1,0 +1,21 @@
+{
+  "name": "love-md-telegram-bot",
+  "version": "1.0.0",
+  "description": "Official Love MD Telegram Bot with Advanced Features",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "love-md",
+    "node"
+  ],
+  "author": "Bagga Sher MD",
+  "license": "MIT",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
