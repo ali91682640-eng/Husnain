@@ -1,21 +1,19 @@
 {
-  "name": "love-md-telegram-bot",
-  "version": "1.0.0",
-  "description": "Official Love MD Telegram Bot with Advanced Features",
+  "name": "love-md-pairing-bot",
+  "version": "2.0.0",
+  "description": "Official Love MD WhatsApp Pairing Code & Session ID Generator Bot for Heroku",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node index.js"
   },
-  "keywords": [
-    "telegram",
-    "bot",
-    "love-md",
-    "node"
-  ],
-  "author": "Bagga Sher MD",
-  "license": "MIT",
   "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.5",
+    "express": "^4.19.2",
+    "pino": "^9.0.0",
+    "qrcode": "^1.5.3",
     "node-telegram-bot-api": "^0.66.0"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
